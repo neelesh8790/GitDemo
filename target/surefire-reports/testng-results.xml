@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-20T16:47:11 IST" name="Suite" finished-at="2020-10-20T16:47:12 IST" duration-ms="76">
+    <groups>
+    </groups>
+    <test started-at="2020-10-20T16:47:11 IST" name="Test" finished-at="2020-10-20T16:47:12 IST" duration-ms="76">
+      <class name="MainMavenProject.MavenJavaTest.RESTAPITest">
+        <test-method signature="DeleteTwittwer()[pri:0, instance:MainMavenProject.MavenJavaTest.RESTAPITest@1a052a00]" started-at="2020-10-20T16:47:12 IST" name="DeleteTwittwer" finished-at="2020-10-20T16:47:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTwittwer -->
+        <test-method signature="PostJira()[pri:0, instance:MainMavenProject.MavenJavaTest.RESTAPITest@1a052a00]" started-at="2020-10-20T16:47:12 IST" name="PostJira" finished-at="2020-10-20T16:47:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostJira -->
+      </class> <!-- MainMavenProject.MavenJavaTest.RESTAPITest -->
+      <class name="MainMavenProject.MavenJavaTest.SeleniumTest">
+        <test-method signature="BrowserAutomation()[pri:0, instance:MainMavenProject.MavenJavaTest.SeleniumTest@770c2e6b]" started-at="2020-10-20T16:47:12 IST" name="BrowserAutomation" finished-at="2020-10-20T16:47:12 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomation -->
+        <test-method signature="ElemnetsUi()[pri:0, instance:MainMavenProject.MavenJavaTest.SeleniumTest@770c2e6b]" started-at="2020-10-20T16:47:12 IST" name="ElemnetsUi" finished-at="2020-10-20T16:47:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ElemnetsUi -->
+      </class> <!-- MainMavenProject.MavenJavaTest.SeleniumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
