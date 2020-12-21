@@ -16,4 +16,20 @@ public class SeleniumTest {
 	{
 		System.out.println("This is Elements of UI");
 	}
+	
+	
+	@Test
+	public void Method5()
+	{
+		System.out.println("This is Method5 for Git");
+		
+	}
+	
+	@Test
+	public void Method6()
+	{
+		System.out.println("This is Method6 for Git");
+		
+	}
+	
 }
