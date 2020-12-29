@@ -8,6 +8,7 @@
 	<groupId>MainMavenProject</groupId>
 	<artifactId>MavenJavaTest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 
 	<name>MavenJavaTest</name>
 	<!-- FIXME change it to the project's website -->
@@ -27,6 +28,21 @@
 								<suiteXmlFiles>
 									<suiteXmlFile>testng2.xml</suiteXmlFile>
 								</suiteXmlFiles>
+							</configuration>
+						</plugin>
+
+
+						<plugin>
+							<artifactId>maven-war-plugin</artifactId>
+							<configuration>
+								<attachClasses>true</attachClasses>
+								<webXml>target/web.xml</webXml>
+								<webResources>
+									<resource>
+										<directory>src/main/webapp</directory>
+										<filtering>true</filtering>
+									</resource>
+								</webResources>
 							</configuration>
 						</plugin>
 					</plugins>
